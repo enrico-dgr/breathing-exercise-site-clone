@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/breathing-exercise-site-clone/static/css/main.433d0636.css",
+    "main.js": "/breathing-exercise-site-clone/static/js/main.2f1f80e9.js",
+    "static/js/787.12a099d7.chunk.js": "/breathing-exercise-site-clone/static/js/787.12a099d7.chunk.js",
+    "static/media/breath-in.mp3": "/breathing-exercise-site-clone/static/media/breath-in.9d3ec5acf715bc9c7214.mp3",
+    "static/media/breath-out.mp3": "/breathing-exercise-site-clone/static/media/breath-out.ea4925c441b9086a1a83.mp3",
+    "static/media/hold.mp3": "/breathing-exercise-site-clone/static/media/hold.ad71cd4751ced6a417d6.mp3",
+    "index.html": "/breathing-exercise-site-clone/index.html",
+    "main.433d0636.css.map": "/breathing-exercise-site-clone/static/css/main.433d0636.css.map",
+    "main.2f1f80e9.js.map": "/breathing-exercise-site-clone/static/js/main.2f1f80e9.js.map",
+    "787.12a099d7.chunk.js.map": "/breathing-exercise-site-clone/static/js/787.12a099d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.433d0636.css",
+    "static/js/main.2f1f80e9.js"
+  ]
+}
