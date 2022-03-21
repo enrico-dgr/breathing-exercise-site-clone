@@ -1,0 +1,79 @@
+.box_breathing__container {
+	align-items: center;
+	border: 1px solid #fff;
+	display: flex;
+	height: 120px;
+	justify-content: center;
+	position: relative;
+	width: 120px;
+}
+
+.box_breathing__message {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.box_breathing__message--transition-in {
+	opacity: 1;
+	transition: all 0.75s ease-in;
+}
+
+.box_breathing__message--transition-out {
+	opacity: 0;
+	transition: all 2s ease-out;
+}
+
+.box_breathing__looper {
+	animation-duration: 5.5s;
+	background-color: #fff;
+	border-radius: 100%;
+	height: 10px;
+	position: absolute;
+	width: 10px;
+}
+
+@keyframes breath-in {
+	0% {
+		left: -5%;
+		top: -5%;
+	}
+	100% {
+		left: 96%;
+		top: -5%;
+	}
+}
+
+@keyframes hold-in {
+	0% {
+		left: 96%;
+		top: -5%;
+	}
+	100% {
+		left: 96%;
+		top: 96%;
+	}
+}
+
+@keyframes breath-out {
+	0% {
+		left: 96%;
+		top: 96%;
+	}
+	100% {
+		left: -5%;
+		top: 96%;
+	}
+}
+
+@keyframes hold-out {
+	0% {
+		left: -5%;
+		top: 96%;
+	}
+	100% {
+		left: -5%;
+		top: -5%;
+	}
+}

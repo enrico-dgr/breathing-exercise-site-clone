@@ -1,0 +1,61 @@
+.play_btn_container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.play_btn_container div:first-of-type {
+	background-color: #fff;
+	border-radius: 100%;
+	color: #333;
+	cursor: pointer;
+	font-size: 85px;
+	height: 120px;
+	line-height: 140px;
+	text-align: center;
+	width: 120px;
+}
+
+.play_btn_container div:first-of-type > svg {
+	stroke: currentcolor;
+	fill: currentcolor;
+	stroke-width: 0;
+	height: 1em;
+	width: 1em;
+}
+
+.breathing_message {
+	color: #fff;
+	font-size: 23px;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+.stop_btn_container {
+	border: 1px solid #fff;
+	border-radius: 100%;
+	color: #fff;
+	cursor: pointer;
+	font-size: 40px;
+	height: 60px;
+	line-height: 70px;
+	margin-top: 15px;
+	text-align: center;
+	width: 60px;
+}
+
+.stop_btn_container svg {
+	stroke: currentcolor;
+	fill: currentcolor;
+	stroke-width: 0;
+	height: 1em;
+	width: 1em;
+}
+
+.play_container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

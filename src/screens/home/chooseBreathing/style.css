@@ -1,0 +1,35 @@
+.choose_breathing {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.choose_breathing > div {
+	align-items: center;
+	display: flex;
+}
+
+.choose_breathing h1 {
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 45px;
+	text-align: center;
+	width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+	.choose_breathing > h1 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+	.choose_breathing > div {
+		flex-direction: column;
+	}
+
+	.choose_breathing > div > .btn {
+		max-width: 100%;
+		width: 220px;
+	}
+}
